@@ -9,8 +9,8 @@ This report summarizes the analysis of credit scores generated for Aave V2 user 
 The following chart shows the number of wallets falling into different credit score ranges (0 to 1000). The scores are categorized into five buckets:
 
 - 0–200: High Risk  
-- 201–400: Low Risk  
-- 401–600: Moderate Risk  
+- 201–400: Moderate Risk  
+- 401–600: Low Risk  
 - 601–800: Average Standing  
 - 801–1000: Safe or Excellent
 
@@ -33,10 +33,10 @@ The following chart shows the number of wallets falling into different credit sc
 | Credit Score Range | Label              | Interpretation                                              |
 |--------------------|--------------------|-------------------------------------------------------------|
 | 0–200              | High Risk          | Likely to default, multiple liquidations, no repayments     |
-| 201–400            | Low Risk           | Below-average behavior, some risky signs                    |
-| 401–600            | Moderate Risk      | Average credit behavior, limited history or mixed signals   |
-| 601–800            | Average Standing   | Good borrowers with a solid transaction record              |
-| 801–1000           | Safe/Excellent     | Excellent behavior, regular repayment, high trust wallets   |
+| 201–400            | Moderate Risk      | Below-average behavior, some risky signs                    |
+| 401–600            | Low Risk           | Average credit behavior, limited history or mixed signals   |
+| 601–800            | Safe               | Good borrowers with a solid transaction record              |
+| 801–1000           | Excellent          | Excellent behavior, regular repayment, high trust wallets   |
 
 ---
 

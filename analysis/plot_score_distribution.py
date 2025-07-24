@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r"D:\aave-credit-scoring\data\wallet_score.csv")
+df = pd.read_csv(r"D:\aave-credit-scoring\data\output_on_given_data.csv")
 
 bins = [0, 200, 400, 600, 800, 1000]
 labels = ['0-200', '201-400', '401-600', '601-800', '801-1000']

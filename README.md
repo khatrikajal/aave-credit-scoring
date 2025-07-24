@@ -20,7 +20,7 @@ aave-credit-scoring/
 │   └── score_distribution.png           # Score distribution graph embedded in analysis.md
 │
 ├── data/                                # Input and output data
-│   ├── user-wallet-transactions.json    # Raw transaction data (input)
+│   ├── sample_transactions.json         # Raw transaction data (input)
 │   └── wallet_score.csv                 # Scored wallet data (output)
 │
 ├── model_training/                      # Model training code and artifacts
@@ -107,3 +107,43 @@ Refer to `analysis/analysis.md` to explore:
 - Credit score distribution
 - SMOTE impact on class balance
 - Risk segment behavior insights
+
+
+
+---
+
+##  Sample Transaction Data Included
+
+To demonstrate the pipeline and ensure the code is testable without sensitive data, a **sample transaction dataset** is provided in:
+
+data/sample_transactions.json
+
+
+This file contains **15 mock DeFi transactions** across different wallets, representing typical actions such as:
+
+- Deposits
+- Borrows
+- Repayments
+- Liquidation calls
+
+These synthetic transactions are crafted to simulate realistic wallet behaviors and ensure functionality even without proprietary data.
+
+---
+
+##  Tested on Sample and Provided Data
+
+- The complete pipeline has been tested and validated using both:
+  - The **provided transaction data** from Zeru (not committed due to confidentiality).
+  - The **included sample data** (`sample-wallet-transactions.json`) to make the project independently testable.
+
+- The output credit scores, model behavior, and reports are based on the provided data.
+
+- The visualization (`plot_score_distribution.png`) shown in the `analysis.md` is generated **based on the actual transaction data supplied by Zeru**.
+
+---
+
+##  Note
+
+If you'd like to test on your own dataset, You can upload the sample file in frontend and re-run the pipeline to generate new outputs.
+
+---

@@ -1,0 +1,137 @@
+[
+  {
+    "userWallet": "0xriskywallet123",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "500000000"
+    },
+    "timestamp": 1620000000
+  },
+  {
+    "userWallet": "0xriskywallet123",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "700000000"
+    },
+    "timestamp": 1620000100
+  },
+  {
+    "userWallet": "0xriskywallet123",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "800000000"
+    },
+    "timestamp": 1620000200
+  },
+  {
+    "userWallet": "0xriskywallet123",
+    "action": "liquidationcall",
+    "actionData": {
+      "type": "LiquidationCall",
+      "amount": "200000000"
+    },
+    "timestamp": 1620000300
+  },
+  {
+    "userWallet": "0xriskywallet123",
+    "action": "liquidationcall",
+    "actionData": {
+      "type": "LiquidationCall",
+      "amount": "300000000"
+    },
+    "timestamp": 1620000400
+  },
+  {
+    "userWallet": "0xmoderatewallet456",
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "1000000000"
+    },
+    "timestamp": 1620100000
+  },
+  {
+    "userWallet": "0xmoderatewallet456",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "300000000"
+    },
+    "timestamp": 1620100100
+  },
+  {
+    "userWallet": "0xmoderatewallet456",
+    "action": "repay",
+    "actionData": {
+      "type": "Repay",
+      "amount": "300000000"
+    },
+    "timestamp": 1620100200
+  },
+  {
+    "userWallet": "0xmoderatewallet456",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "200000000"
+    },
+    "timestamp": 1620100300
+  },
+  {
+    "userWallet": "0xmoderatewallet456",
+    "action": "repay",
+    "actionData": {
+      "type": "Repay",
+      "amount": "200000000"
+    },
+    "timestamp": 1620100400
+  },
+  {
+    "userWallet": "0xstrongwallet789",
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "2000000000"
+    },
+    "timestamp": 1620200000
+  },
+  {
+    "userWallet": "0xstrongwallet789",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "500000000"
+    },
+    "timestamp": 1620200100
+  },
+  {
+    "userWallet": "0xstrongwallet789",
+    "action": "repay",
+    "actionData": {
+      "type": "Repay",
+      "amount": "500000000"
+    },
+    "timestamp": 1620200200
+  },
+  {
+    "userWallet": "0xstrongwallet789",
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "1500000000"
+    },
+    "timestamp": 1620200300
+  },
+  {
+    "userWallet": "0xstrongwallet789",
+    "action": "borrow",
+    "actionData": {
+      "type": "Borrow",
+      "amount": "300000000"
+    },
+    "timestamp": 1620200400
+  }
+]
